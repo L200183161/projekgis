@@ -227,58 +227,73 @@ session_start();
                             </div>
                         </div>
                     </div>
-                    <a class="float-right btn btn-flat" href="./login.php"> <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i> Start Conversation Right now!!</a>
+                    <a class="float-right btn btn-flat" href="./login.php"> Insert Your Data <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
                     <br><br>
                     <!-- START THE FEATURETTES -->
 
                     <hr class="featurette-divider">
-
-                    <div class="row featurette" data-aos="fade-left" data-aos-duration="2000">
-                        <div class="col-md-7">
-                            <h2 class="featurette-heading">The Remnants of Ancient Kingdom <a href="login.php" style="text-decoration: none;"><span class="text-muted">Solo Surakarta</span></h2></a>
-                            <p class="lead text-justify">Absorb yourself in history with a becak ride through the old city. Historically, Solo has been a center of power in Central Java. From Solonese dance, wayang puppetry through to hand-crafted batik Solo remains a city that prides itself on its artistic traditions of elegance and refinement.</p>
+                    <?php if ($_SESSION['admin']['id']) { ?>
+                        <div class="row featurette" data-aos="fade-left" data-aos-duration="2000">
+                            <div class="col-md-7">
+                                <h2 class="featurette-heading">Donny Rizal Adhi Pratama</span></h2></a>
+                                <h2 class="post-heading">L200183161</span></h2></a>
+                                <p class="lead text-justify">I thought it was hard... heck yeah.... 🙃</p>
+                            </div>
+                            <div class="col-md-5">
+                                <img class="featurette-image img-fluid mx-auto" src="./assets/images/foto.png" alt="Gambar">
+                            </div>
                         </div>
-                        <div class="col-md-5">
-                            <img class="featurette-image img-fluid mx-auto" src="https://www.indonesia.travel/content/dam/indtravelrevamp/en/destinations/revisi-2020/destinations-thumbnail/Solo-Thumbnail.jpg" alt="Melaka image">
-                        </div>
-                    </div>
 
-                    <hr class="featurette-divider">
+                        <hr class="featurette-divider">
 
-                    <div class="row featurette" data-aos="fade-right" data-aos-duration="2000">
-                        <div class="col-md-7 order-md-2">
-                            <h2 class="featurette-heading">The Wonders of the Ancient Heritage<a href="login.php" style="text-decoration: none;"><span class="text-muted"> Yogyakarta</span></h2></a>
-                            <p class="lead text-justify">Yogyakarta, together with its twin city Surakarta (Solo), is the cradle of civilization on Java. This city was the seat of power that produced the magnificent temples of Borobudur and Prambanan in the 8th and 9th centuries and the new powerful Mataram kingdom of the 16th and 17th century.
-                                Yogyakarta was known with the slogan of “Jogja The Never ending Asia“ for its endless appeals. Today, it is also renowned as “ Jogja Istimewa “, a tagline that elaborates its special values.</p>
+                        <div class="row featurette" data-aos="fade-right" data-aos-duration="2000">
+                            <div class="col-md-7 order-md-2">
+                                <h2 class="featurette-heading">Galih Prayoga</span></h2></a>
+                                <h2 class="post-heading">L200180006</span></h2></a>
+                                <p class="lead text-justify">.......</p>
+                            </div>
+                            <div class="col-md-5 order-md-1">
+                                <img class="featurette-image img-fluid mx-auto" src="https://www.indonesia.travel/content/dam/indtravelrevamp/user-generated-content/ugc-july-2020/gb-en/3.jpg" alt="Gambar">
+                            </div>
                         </div>
-                        <div class="col-md-5 order-md-1">
-                            <img class="featurette-image img-fluid mx-auto" src="https://www.indonesia.travel/content/dam/indtravelrevamp/user-generated-content/ugc-july-2020/gb-en/3.jpg" alt="Penang image">
-                        </div>
-                    </div>
 
-                    <hr class="featurette-divider">
+                        <hr class="featurette-divider">
 
-                    <div class="row featurette" data-aos="fade-left" data-aos-duration="2000">
-                        <div class="col-md-7">
-                            <h2 class="featurette-heading">And lastly, this one.<a href="login.php" style="text-decoration: none;"><span class="text-muted"> Raja Ampat</span></h2></a>
-                            <p class="lead text-justify">Find a pristine paradise where Mother Nature and warm friendly people welcome you with all the exceptional wonders in Raja Ampat, the islands-regency in West Papua Province. </p>
+                        <div class="row featurette" data-aos="fade-left" data-aos-duration="2000">
+                            <div class="col-md-7">
+                                <h2 class="featurette-heading">Bachtiar Nuhri Kurniawan</span></h2></a>
+                                <p class="lead text-justify">L200180031</p>
+                                <p class="lead text-justify">.......</p>
+                            </div>
+                            <div class="col-md-5">
+                                <img class="featurette-image img-fluid mx-auto" src="https://www.indonesia.travel/content/dam/indtravelrevamp/user-generated-content/ugc-july-2020/gb-en/6.jpg" alt="Gambar">
+                            </div>
                         </div>
-                        <div class="col-md-5">
-                            <img class="featurette-image img-fluid mx-auto" src="https://www.indonesia.travel/content/dam/indtravelrevamp/user-generated-content/ugc-july-2020/gb-en/6.jpg" alt="Ipoh placeholder image">
-                        </div>
-                    </div>
 
-                    <hr class="featurette-divider">
-                    <!-- /END THE FEATURETTES -->
+                        <hr class="featurette-divider">
+
+                        <div class="row featurette" data-aos="fade-right" data-aos-duration="2000">
+                            <div class="col-md-7 order-md-2">
+                                <h2 class="featurette-heading">Edi Supriyanto (L200180002)</span></h2></a>
+                                <p class="lead text-justify">L200180002</p>
+                                <p class="lead text-justify">.......</p>
+                            </div>
+                            <div class="col-md-5 order-md-1">
+                                <img class="featurette-image img-fluid mx-auto" src="https://www.indonesia.travel/content/dam/indtravelrevamp/user-generated-content/ugc-july-2020/gb-en/6.jpg" alt="Gambar">
+                            </div>
+                        </div>
+
+                        <hr class="featurette-divider">
+                        <!-- /END THE FEATURETTES -->
 
                 </div><!-- /.container -->
+            <?php } ?>
 
-
-                <!-- FOOTER -->
-                <footer class="container">
-                    <a class="float-right" href="#"> <i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
-                    <p>&copy; Donny Rizal &middot; <a href="#">Privacy</a> &middot; <a href="#notice">Terms</a></p>
-                </footer>
+            <!-- FOOTER -->
+            <footer class="container">
+                <a class="float-right" href="#"> <i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+                <p>&copy; Donny Rizal &middot; <a href="#">Privacy</a> &middot; <a href="#notice">Terms</a></p>
+            </footer>
             </div>
         </div>
         </div>
