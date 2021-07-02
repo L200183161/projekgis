@@ -1,0 +1,297 @@
+/*menu navbar*/
+menu {
+  background-color: #222;
+  margin: 0px;
+  padding: 0px;
+  border-bottom: 2px solid #00BA28;
+  border-top: 0px !important;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  top: 0;
+  left: 0;
+}
+
+menu>ul {
+  padding-left: 3%;
+  list-style: none;
+  margin: 0px;
+}
+
+menu>ul>li {
+  float: left;
+}
+
+menu>ul>li:hover {
+  background: #00BA28;
+  transition: all 1s;
+}
+
+menu ul li:hover a {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+
+menu>ul>li>a {
+  display: block;
+  padding: 1rem 1rem 1rem 1rem;
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/*Footer*/
+footer {
+  border: 1px solid #fff;
+  border-radius: 0 0 15px 15px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  background-color: #222222;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+footer>p {
+  margin: 5px !important;
+}
+
+footer>p>a {
+  color: #2196F3;
+  text-decoration: none
+}
+
+footer>p>a:hover {
+  color: #ff0000;
+  text-decoration: none
+}
+
+/*tabel*/
+table.tabel {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+table.tabel td,
+table.tabel th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 6px;
+}
+
+table.tabel tbody td {
+  font-size: 13px;
+}
+
+table.tabel tr:nth-child(even) {
+  background: #8CFF6E;
+}
+
+table.tabel thead {
+  background: #27930E;
+  background: -moz-linear-gradient(top, #5dae4a 0%, #3c9d26 66%, #27930E 100%);
+  background: -webkit-linear-gradient(top, #5dae4a 0%, #3c9d26 66%, #27930E 100%);
+  background: linear-gradient(to bottom, #5dae4a 0%, #3c9d26 66%, #27930E 100%);
+  border-bottom: 2px solid #444444;
+}
+
+table.tabel thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #D0E4F5;
+}
+
+table.tabel thead th:first-child {
+  border-left: none;
+}
+
+table.tabel tfoot td {
+  font-size: 14px;
+}
+
+table.tabel tfoot .links {
+  text-align: right;
+}
+
+table.tabel tfoot .links a {
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+table.tabel td.tengah {
+  text-align: center;
+}
+
+table.tabel td.bold {
+  font-weight: bold
+}
+
+/*form*/
+.daftar>p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tabell {
+  margin: auto;
+  font-size: 15;
+  font-weight: bold;
+}
+
+.tabell input {
+  background-color: #2196F3;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  box-shadow: none;
+  padding: 0.4rem 0.7rem;
+  color: #fff;
+  margin-bottom: 0;
+  font-weight: normal !important;
+}
+
+.tabell input:-webkit-autofill {
+  border: 1px solid #fff;
+  color: #fff;
+  -webkit-text-fill-color: #fff;
+  -webkit-box-shadow: 0 0 0px 1000px #2196F3 inset;
+  transition: background-color 5000s ease-in-out 0s
+}
+
+.bb {
+  background-color: #2196F3;
+  border: none;
+  border-radius: 10px;
+  box-shadow: none;
+  padding: 2px;
+  color: #fff;
+  margin-bottom: 0;
+  font-weight: normal !important;
+}
+
+.tombol {
+  padding: 5px;
+  margin: 10px 10px 10px 0px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  outline: none;
+  background-color: #2196F3;
+  color: #ffffff;
+  transition: all .5s;
+}
+
+.tombol:hover {
+  background-color: #d20000;
+  color: #fff;
+}
+
+/*Select Box*/
+.custom-select {
+  position: relative;
+}
+
+.custom-select select {
+  display: none;
+  /*hide original SELECT element:*/
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  font-family: Material Icons;
+  content: "arrow_drop_down";
+  top: 30px;
+  right: 20px;
+  font-size: 20px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  position: absolute;
+  font-family: Material Icons;
+  content: "arrow_drop_up";
+  top: 30px;
+  right: 20px;
+  font-size: 20px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,
+.select-selected {
+  padding: 8px 0;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+.select-items div {
+  padding: 8px 18px !important;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.same-as-selected:after {
+  position: absolute;
+  font-family: Material Icons;
+  content: "check";
+  font-weight: bold;
+  right: 20px;
+  font-size: 20px;
+}
+
+.dataTables_wrapper .dt-buttons a.dt-button:hover {
+  background-color: #d20000 !important;
+}
+
+.pagination>.active>a {
+  background-color: #2196F3 !important;
+}
+
+.list>li:hover {
+  background-color: #eee !important;
+}
